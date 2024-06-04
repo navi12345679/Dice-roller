@@ -6,7 +6,7 @@ function rolldice(){
     const diceimages= document.getElementById("diceimages");
 
    const values = [];
-   const images = [];
+   const images = []; 
 
    for(let i=0; i < numofdice; i++){
     const value= Math.floor(Math.random() * 6) + 1;
